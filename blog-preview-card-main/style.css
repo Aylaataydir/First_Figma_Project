@@ -1,0 +1,27 @@
+@font-face {
+    font-family:Figtree;
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+:root{
+    /*color*/
+    --clr-yellow:#F4D04E;
+    --clr-gray-950:#111111;
+    --clr-gray-500:#6B6B6B;
+    --clr-white:#ffffff;
+
+    /*fonts*/
+
+    --ff-figtree:"figtree" , system-ui, sans-serif;
+
+    /* font-size*/
+    
+--fs-xl:1.5rem;
+--fs-lg:1.25rem; /* 20/16 */
+--fs-md:1rem;
+--fs-s : .875rem; /* 14/16 */
+--fs-xs: .75rem; /* 12/16 */
+
+}
