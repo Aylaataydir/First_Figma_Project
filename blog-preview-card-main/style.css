@@ -127,7 +127,7 @@ body {
     box-shadow: 8px 8px;
     padding: 24px;
 
-    @media screen (width<480px) { 
+     @media screen and (max-width:480px){ 
         max-width: 327px;
         margin: 24px;
     }
@@ -136,10 +136,14 @@ body {
 .card__image {
     border-radius: 10px;
     border: 1px solid black;
+    max-width: 336px;
+    
 
-    @media screen (width<480px){
-        width:279px; 
-        height: 200px;
+    @media screen and (max-width:480px){
+        max-width:279px; 
+        
+        border-radius: 10px;
+        border: 1px solid black;
     }
 
 }
@@ -155,21 +159,37 @@ body {
     background-color: var(--clr-yellow);
     width: fit-content;
     border-radius: 4px;
+
+    @media screen and (max-width:480px){
+        font-size: var(--fs-xs);
+    }
 }
 
 .card__date {
     font-size: var(--fs-sm);
     margin: 12px 0;
+
+     @media screen and (max-width:480px){
+        font-size: var(--fs-xs);
+    }
 }
 
 .card__title {
     font-size: var(--fs-xl);
+
+     @media screen and (max-width:480px){
+        font-size: var(--fs-lg);
+    }
 }
 
 .card__subtitle {
     font-size: var(--fs-md);
     color: var(--clr-gray-500);
     margin-top: 12px;
+
+     @media screen and (max-width:480px){
+        font-size: var(--fs-md);
+    }
 }
 
 .card__user-info {
