@@ -131,11 +131,22 @@ body{
      border-radius:10px; 
 }
 
-.
+.card__content {
+    margin-top: 24px;
+}
 
 .card__category {
-    font-size: var(--fs-xs);
+    font-size: var(--fs-sm);
     font-weight: var(--fw-rxtra-bold);
     padding: 4px 12px;
+    background-color: var(--clr-yellow);
+    width: fit-content;
+    border-radius: 4px;
 }
+
+.card__date {
+    font-size: var(--fs-sm);
+    margin: 12px 0;
+}
+
 
