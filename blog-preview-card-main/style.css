@@ -123,12 +123,25 @@ body {
     background-color: var(--clr-white);
     max-width: 384px;
     border-radius: 20px;
+    border: 1px solid black;
     box-shadow: 8px 8px;
     padding: 24px;
+
+    @media screen (width<480px) { 
+        max-width: 327px;
+        margin: 24px;
+    }
 }
 
 .card__image {
     border-radius: 10px;
+    border: 1px solid black;
+
+    @media screen (width<480px){
+        width:279px; 
+        height: 200px;
+    }
+
 }
 
 .card__content {
